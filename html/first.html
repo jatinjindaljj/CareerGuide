@@ -1,11 +1,13 @@
 <link rel="stylesheet" type="text/css" href="/css/first.css">
 
 <div ng-controller = 'first' >
+    <div class="container">
+    <div id="appheader" class="row">
 
-    <div id="appheader">
-
-        circles 
-
+        <div id="c" class="col-sm">  </div>
+        <div id="c" class="col-sm">  </div>
+        <div id="c" class="col-sm">  </div>
+    </div>
     </div>
 
     
@@ -33,7 +35,25 @@
                 <br><br>
 
                 <label>
-                   <input type="radio" class="availableoptions" name="choose" ng-value="5" ng-model="choosevalue"  ng-change="addvalue()" > Enjoy
+                    <input type="radio" class="availableoptions" name="choose" ng-value="2" ng-model="choosevalue"  ng-change="addvalue()" required > Slightly Dislike
+                 </label>
+ 
+                 <br><br>
+
+                 <label>
+                    <input type="radio" class="availableoptions" name="choose" ng-value="3" ng-model="choosevalue"  ng-change="addvalue()" required > Neutral
+                 </label>
+ 
+                 <br><br>
+
+                 <label>
+                    <input type="radio" class="availableoptions" name="choose" ng-value="4" ng-model="choosevalue"  ng-change="addvalue()" required > Slightly Like
+                 </label>
+ 
+                 <br><br>
+
+                <label>
+                   <input type="radio" class="availableoptions" name="choose" ng-value="5" ng-model="choosevalue"  ng-change="addvalue()" required > Enjoy
                 </label>
 
                 <br><br>
